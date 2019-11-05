@@ -16,6 +16,7 @@ class PostsController extends Controller
         return view('posts.create');
     }
 
+    /* add a post */
     public function store()
     {
         $data = request()->validate([
